@@ -3,7 +3,11 @@ body{
     background-color: rgb(243, 78, 202);
     color: white;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    
+        
+}
+* {
+    margin: 0;
+    padding: 0;
 }
 li{
     list-style-type: none;
@@ -11,6 +15,7 @@ li{
 /* header navbar area */
 header {
     display: flex;
+    margin: 1em 0em 0em 2em;
 }
 /* navbar img content area  */
 header nav ol li a img {
@@ -62,5 +67,11 @@ nav > ol {
 }
 #nav_promo1 :hover{
     color: rgb(243, 78, 202);
+    background-color: white;
+}
+/* Footer area */
+footer {
+    width: 100%;
+    height: 100px;
     background-color: white;
 }
