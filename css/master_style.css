@@ -1,0 +1,66 @@
+/* root area */
+body{
+    background-color: rgb(243, 78, 202);
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    
+}
+li{
+    list-style-type: none;
+}
+/* header navbar area */
+header {
+    display: flex;
+}
+/* navbar img content area  */
+header nav ol li a img {
+    width: auto;
+    height: 150px;
+    float: left;
+    position: relative;
+    left: -60px;
+    top: -50px;
+}
+/* navbar list content area */
+#wapper_nav1 {
+    top: -9.4em;
+    right: -55em;
+    float: right;
+    position: relative;
+    flex: 1;
+}
+nav ol  span li  {
+    display: inline-block;
+    padding-left: 10px;
+}
+nav > ol >  span > li > a{
+    color: white;
+    text-decoration: none;
+}
+nav > ol >  span > li > :hover{
+    font-size: larger;
+}
+nav > ol >  span > li > button > a{
+    color: white;
+    text-decoration: none;
+}
+
+nav > ol {
+    float: right;
+    margin-right:10em;
+    position: relative;
+}
+
+#nav_promo1  a button {
+    background-color: rgb(243, 78, 202);
+    padding: 10px;
+    border-radius:10px ;
+    border-color:white;
+    border-style: solid;
+    color: white;
+    font-size: large;
+}
+#nav_promo1 :hover{
+    color: rgb(243, 78, 202);
+    background-color: white;
+}

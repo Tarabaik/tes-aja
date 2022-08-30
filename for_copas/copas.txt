@@ -1,0 +1,5 @@
+font :
+font-family: 'Plus Jakarta Sans', sans-serif;
+
+bacgroun color
+    background-color: rgb(243, 78, 202);
